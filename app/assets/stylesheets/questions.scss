@@ -1,0 +1,44 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+    font-family: Ubuntu, sans-serif;
+}
+
+.container {
+    margin: 150px 50px;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form label, input {
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 800;
+
+}
+.answer-card {
+    margin: 10px;
+    padding-left: 10px;
+    border-left: 10px solid lightgrey;
+    background-color: lightyellow;
+    width: 600px;
+}
+
+.btn-back {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    &:hover {
+        transition-duration: 2s;
+        border: solid;
+        border-color: black;
+        background-color: white;
+        color: black;
+    }
+  }
